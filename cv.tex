@@ -1,0 +1,46 @@
+\documentclass{awesome-cv}
+
+\addbibresource{bibliography.bib}
+
+%%% Override a directory location for fonts(default: 'Fonts/')
+\fontdir[Fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{Resume/}
+
+%%% Needed to divide into several files
+\usepackage{import}
+
+
+% -----------------------------------------------
+%   Personal Data
+% -----------------------------------------------
+\name{Naphat}{Keawpibal}
+\address{657/4 Sri Wa Na housing estate, Kanjanavanich Rd., Pawong, Songkhla, Thailand}
+\mobile{088 760 7910}
+\email{naphat.kpb@gmail.com}
+\gender{Male}
+\dob{29 November 1987}
+\nationality{Thai}
+\religion{Buddhism}
+\status{Single}
+
+
+\begin{document}
+	%%% Make a header for CV with personal data
+	\makecvheader
+	
+	%%% Import contents
+	\import{\sectiondir}{objective.tex}	
+	\import{\sectiondir}{education.tex}	
+	\import{\sectiondir}{experience.tex}
+	\import{\sectiondir}{research.tex}
+	\import{\sectiondir}{courses.tex}
+	\import{\sectiondir}{publication.tex}
+	\import{\sectiondir}{adaptiveskills.tex}
+	\import{\sectiondir}{programming.tex}	
+	\import{\sectiondir}{english.tex}
+	\pagebreak
+	\import{\sectiondir}{reference.tex}
+	
+\end{document}
