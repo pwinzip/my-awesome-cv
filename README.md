@@ -2,4 +2,5 @@
 my-awesome-cv
 
 Compile: XeLaTeX
+
 Bibliography: biber
